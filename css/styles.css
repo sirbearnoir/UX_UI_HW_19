@@ -1,0 +1,134 @@
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation{
+    display: inline-block;
+    align-items: flex-start;
+    
+}
+.ul:target {
+    width: 50%;
+    Margin-left: auto;
+}
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 50px;
+    position:  75% absolute;
+    text-align: center;
+    
+}
+footer {
+    background-color:#F2CF1D ;
+    height: 50px;
+    
+}
+.ul {
+    display: inline;
+    vertical-align: top;
+    
+    
+}
+.li {
+    padding: center;
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    
+    
+    
+}
+
+.logo {
+    width: 20%;
+    display: inline-block;
+    position:sticky;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.liFoot {
+    padding: center;
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.buttonStyle {
+   
+    width: 100%;
+    border: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1.5%;
+}
+.flexContainer {
+    display:flex;
+    width: 33%;
+}
+.workGrid {
+    display:grid;
+    grid-template-areas:  "D.O.E. Redesign1 D.O.E. Redesign2 D.O.E. Redesign3 D.O.E. Redseign4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px;
+    justify-content: center;
+    
+    
+    
+}
+.myWork{
+    text-align: center;
+}
+
+.mySkills{
+    flex-flow: wrap;
+    flex-shrink: initial;
+    font-size: small;
+    margin: 150px;
+}
+
+
+@media screen and (max-width:600px){
+    .workGrid {
+        display: contents;
+        margin-bottom: 200px;
+        justify-content: center;
+        
+        
+        
+    }
+}
+  
+@media only screen and (max-width:600px){
+    .mySkills {
+        display:contents;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .flexContainer {
+        display: contents;
+    }
+    .workGrid {
+        display: contents;
+        margin-bottom: 200px;
+        justify-content: center;  
+    }
+    
+}
+
