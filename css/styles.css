@@ -93,6 +93,7 @@ font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .myWork{
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 .mySkills{
@@ -100,6 +101,10 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     flex-shrink: initial;
     font-size: small;
     margin: 150px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -131,4 +136,5 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     }
     
 }
+
 
